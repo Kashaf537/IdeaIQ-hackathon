@@ -85,13 +85,13 @@ Radar profile visualization
 
 Execution blueprint presentation
 
-User-friendly Streamlit interface
+User-friendly Gradio interface
 
 🛠 Technology Stack
 
 Python
 
-Streamlit
+Gradio
 
 FAISS (Vector Database)
 
@@ -128,10 +128,8 @@ IdeaIQ/
 │
 ├── app.py
 ├── requirements.txt
-├── data/
-│   └── processed/
-│       └── cleaned_market_dataset.json
-├
+├── cleaned_market_dataset.json
+├--DockerFile.py
 └── README.md
 🚀 Installation & Local Setup
 1️⃣ Clone the repository
@@ -139,8 +137,7 @@ git clone <repository_url>
 cd IdeaIQ
 2️⃣ Install dependencies
 pip install -r requirements.txt
-3️⃣ Run the application
-streamlit run app.py
+3️⃣ Run the application(gradio app)
 🔐 Environment Variables
 
 The application requires an API key for the LLM provider.
