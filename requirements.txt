@@ -1,0 +1,10 @@
+faiss-cpu
+sentence-transformers
+groq
+python-dotenv
+gradio
+plotly
+pandas
+scikit-learn
+fpdf2==2.8.2
+kaleido==0.2.1
